@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"],
+      "@components/*": ["components/*"],
+      "@hooks/*": ["hooks/*"],
+      "@styles/*": ["styles/*"],
+      "@variables": ["constants/variables.css"],
+      "@uiLoader": ["components/admin/ui/loader/loader.jsx"],
+      "@axiosInstance":["api/axiosConfig.js"],
+      "@uiButtons":["components/admin/ui/buttons/buttons.jsx"],
+      "@uiValidationWindow":["components/admin/ui/validationWindow/validationWindow.jsx"],
+      "@authContext": ["context/authContext.js"]
+    }
+  }
+}

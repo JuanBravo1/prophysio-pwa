@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sin conexión - PROphysio</title>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #e6fbf8;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      margin: 0;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: #ccc;
+      margin-bottom: 1.5rem;
+    }
+    button {
+      background-color: #00c2a8;
+      color: #0d1117;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    button:hover {
+      background-color: #00e3c2;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Sin conexión a Internet</h1>
+  <p>Verifica tu conexión o intenta nuevamente.</p>
+  <button onclick="window.location.reload()">Reintentar</button>
+</body>
+</html>

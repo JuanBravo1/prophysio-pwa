@@ -1,0 +1,140 @@
+/* Estilos para los botones UI */
+.ui-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.ui-btn svg {
+  margin-right: 0.25rem;
+}
+
+/* Botón Editar */
+.ui-btnEdit {
+  background-color: #f3f4f6;
+  color: #4b5563;
+}
+
+.ui-btnEdit:hover {
+  background-color: #e5e7eb;
+}
+
+/* Botón Publicar */
+.ui-btnPublish {
+  background-color: #dcfce7;
+  color: #16a34a;
+}
+
+.ui-btnPublish:hover {
+  background-color: #bbf7d0;
+}
+
+/* Botón Despublicar */
+.ui-btnUnpublish {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+
+.ui-btnUnpublish:hover {
+  background-color: #fde68a;
+}
+
+/* Botón Ver Vista Previa */
+.ui-btnPreview {
+  background-color: #dbeafe;
+  color: #2563eb;
+}
+
+.ui-btnPreview:hover {
+  background-color: #bfdbfe;
+}
+
+/* Botón Eliminar */
+.ui-btnDelete {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+
+.ui-btnDelete:hover {
+  background-color: #fecaca;
+}
+
+/* Botón Cerrar */
+.ui-btnClose {
+  background-color: #f3f4f6;
+  color: #4b5563;
+}
+
+.ui-btnClose:hover {
+  background-color: #e5e7eb;
+}
+
+/* Botón Nuevo Testimonio */
+.ui-btnNuevo {
+  background-color: #14b8a6;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ui-btnNuevo:hover {
+  background-color: #0d9488;
+}
+
+/* Botón Mostrar/Ocultar Contraseña */
+.ui-btnPassword {
+  background-color: #f3f4f6;
+  color: #4b5563;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 0.375rem;
+}
+
+.ui-btnPassword svg {
+  margin-right: 0;
+}
+
+.ui-btnPassword:hover {
+  background-color: #e5e7eb;
+}
+
+.ui-btnPassword-show {
+  color: #2563eb;
+  background-color: #dbeafe;
+}
+
+.ui-btnPassword-show:hover {
+  background-color: #bfdbfe;
+}
+
+/* Botones en tarjetas de testimonios */
+.testimonial-actions .ui-btn {
+  padding: 0.375rem;
+}
+
+/* Botones en el header */
+.header-actions .ui-btn {
+  margin-left: 0.5rem;
+}
+
+/* Ajustes para el contenedor de contraseña */
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.password-wrapper input {
+  padding-right: 40px;
+}

@@ -1,0 +1,138 @@
+@import "./constants/variables.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+ 
+}
+
+main {
+ 
+  min-height: 100vh;
+  
+  /* 🚀 Hace que el contenido principal crezca y mantenga el footer abajo */
+}
+
+
+.custom-toast {
+  background-color: #4caf50;
+  /* Color de fondo */
+  color: white;
+  /* Color del texto */
+  border-radius: 8px;
+  /* Bordes redondeados */
+  padding: 10px;
+  /* Espaciado interno */
+}
+
+.custom-toast-error {
+  background-color: #f44336;
+  /* Color de fondo para errores */
+}
+
+
+
+
+/* Buttons */
+.adminDashboard-icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.375rem;
+  border: 1px solid var(--admin-border);
+  background-color: var(--admin-white);
+  color: var(--admin-text);
+  cursor: pointer;
+}
+
+.adminDashboard-icon-button:hover {
+  background-color: var(--admin-background);
+}
+
+.adminDashboard-icon-button-small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.375rem;
+  border: none;
+  background-color: transparent;
+  color: var(--text-light);
+  cursor: pointer;
+}
+
+.adminDashboard-icon-button-small:hover {
+  background-color: var(--admin-background);
+}
+
+.adminDashboard-primary-button {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  border: none;
+  background-color: var(--color-primary);
+  color: var(--admin-white);
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.adminDashboard-primary-button:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.adminDashboard-secondary-button {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  border: 1px solid var(--admin-border);
+  background-color: var(--admin-white);
+  color: var(--admin-text);
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.adminDashboard-secondary-button:hover {
+  background-color: var(--admin-background);
+}
+
+.adminDashboard-button-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.adminDashboard-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.adminDashboard-icon-small {
+  width: 1rem;
+  height: 1rem;
+}
+
